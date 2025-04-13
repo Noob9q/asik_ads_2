@@ -1,3 +1,5 @@
+
+//test Arraylist
 //public class Main {
 //    public static void main(String[] args) {
 //        MyArrayList<Integer> list = new MyArrayList<>();
@@ -60,6 +62,8 @@
 //        System.out.println();
 //    }
 //}
+
+//test Linkedlist
 //public class Main {
 //    public static void main(String[] args) {
 //        MyLinkedList<String> list = new MyLinkedList<>();
@@ -116,6 +120,8 @@
 //}
 
 
+
+//test myStack
 //public class Main {
 //    public static void main(String[] args) {
 //        MyStack<Integer> stack = new MyStack<>();
@@ -127,6 +133,38 @@
 //        System.out.println(stack.pop()); // 30
 //        System.out.println(stack.peek()); // 20
 //        System.out.println(stack.size()); // 2
+//    }
+//}
+
+
+//test Queue
+//public class Main {
+//    public static void main(String[] args) {
+//        MyQueue<String> queue = new MyQueue<>();
+//
+//        queue.enqueue("A");
+//        queue.enqueue("B");
+//        queue.enqueue("C");
+//
+//        System.out.println(queue.dequeue()); // A
+//        System.out.println(queue.peek());    // B
+//        System.out.println(queue.size());    // 2
+//    }
+//}
+
+//test heap
+//public class Main {
+//    public static void main(String[] args) {
+//        MyMinHeap<Integer> heap = new MyMinHeap<>();
+//
+//        heap.add(40);
+//        heap.add(20);
+//        heap.add(30);
+//        heap.add(10);
+//
+//        System.out.println(heap.peek()); // 10
+//        System.out.println(heap.poll()); // 10
+//        System.out.println(heap.peek()); // 20
 //    }
 //}
 
